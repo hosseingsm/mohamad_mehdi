@@ -1,0 +1,253 @@
+@font-face {
+   font-family: Birds of Paradise;
+   src: url(fonts/fr13631856_Birds_of_Paradise_gfiles.ir/fr13631856_Birds_of_Paradise\ .ttf);
+}
+
+body{
+   
+   background-color: #262626;
+}
+
+.hh:focus{
+   outline: none;
+   box-shadow:1px 3px;
+   border:2px solid #ffc107;
+}
+.im{
+   font-family:Birds of Paradise ;
+}
+
+
+
+
+  
+.er{
+ width: 100%;
+height: 80vh;
+position: relative;
+background: url(images/4729272.jpg);
+background-size: cover;
+border: 3px groove #ffc107;
+border-radius: 25px;
+}
+
+.er:hover{
+   color: wheat;
+}
+
+a{
+   text-decoration: none;
+   color: #ffc107;
+   transition: all .5s;
+   
+}
+a:hover{
+   color: #eeb50a;
+   text-shadow: 3px 5px 4px black;
+}
+ 
+.rr{
+   color: white;
+}
+.rr:hover{
+   color: #ffc107;
+}
+
+.rr1{
+   color: #fdc200;
+}
+
+
+.img-card{
+   margin-top: 1rem;
+   width: 100%;
+   height: 80vh;
+   position: relative;
+   background:linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,0.7)),  url('images/surface-pro-8-display.jpg') center no-repeat;
+   background-size: cover;
+   border: 3px groove #ffc107;
+   border-radius: 25px;
+}
+
+
+.size{
+   border-top: 1px groove #ffc107;
+   border-bottom: 1px groove #ffc107;
+   border-radius: 25px;
+   background-color:#242121e0;
+   color: #ffc107;
+   text-align: center;
+   box-shadow: 4px 5px 3px black ,-4px -4px 3px rgb(5, 5, 5);
+}
+
+
+
+
+.card .con-text p{
+   font-size: 2rem;
+   opacity: 0;
+   margin-bottom: -50PX;
+   transition: all .5s ease;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.card3{
+   text-shadow: 2px 3px 3px black;
+   box-shadow: 6px 5px 5px black;
+   margin-top: 50px;
+   border: 3px groove #ffc107;
+   width: 100%;
+   height: 40vh;
+   background: #000;
+   border-radius: 25px;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: all .25s ease;
+   backface-visibility: hidden;
+   
+}
+
+.card3:hover{
+   transform: scale(.9);
+   background-color: #262626;
+}
+
+.card3:hover::after{
+   height: 280px;
+
+}
+
+.card3:hover .con-text p{
+   margin-bottom: 0px;
+   opacity: 1;
+}
+
+.card3:hover img {
+   transform: translate(0);
+}
+
+.card3::after{
+   width: 100%;
+   content: '';
+   left: 0px;
+   height: 100vh;
+   position: absolute;
+   background: linear-gradient(180deg,rgba(0,0,0,0)0% , rgba(0,0,0,1)100%);
+   z-index: 20;
+   transition: all .25s ease; 
+
+}
+
+.card3 img{
+   height: 100%;
+   z-index: 10;
+   transition: all .25s ease;
+   text-align: center;
+}
+
+.card3 .con-text {
+   z-index: 30;
+   position: absolute;
+   bottom: 0;
+   color: #ffc107;
+   padding: 10px ;
+   padding-bottom: 30px ;
+
+
+
+}
+
+
+.card3 .con-text p{
+   font-size: 1rem;
+
+   transition: all .5s ease;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.text-warning{
+   color: rgb(0, 255, 191);
+}
+
+.size1{
+   width: 410px;
+   height: 210px;
+   border: 1px solid rgb(19, 17, 17);
+   border-radius: 26px;
+   box-shadow: 5px 0px 3px black;
+   margin: 0;
+   padding: 0%;
+}
+
+.shado{
+   text-shadow: 4px 6px 5px black;
+
+}
+
+.shado1{
+   font-size: 1rem;
+}
+
+
+.bg-mo{
+   
+   margin: auto;
+   width: 85%;
+   height: 70vh;
+   border-radius:30px ;
+   border:3px groove #ffc107;
+   margin-top: 50px;
+   background: linear-gradient(180deg,rgba(0,0,0,0)0% , rgba(0,0,0,5)100%);
+}
+  
+
+.color-ins{
+   color: rgb(157, 64, 243);
+   margin: 0 10px;
+}
+
+.color-fac{
+   color: rgb(0, 97, 243);
+   margin: 0 10px;
+}
+
+.color-tel{
+   color: rgb(0, 138, 252);
+   margin: 0 10px;
+}
+
+.color-wha{
+   color: rgb(57, 236, 22);
+   margin: 0 10px;
+}
+
+.bor{
+   border-bottom: 3px groove #eeb50a;
+   height: 40px;
+}
+
+
+.list{
+   letter-spacing: 0px;
+   color: #d3d2cc;
+   transition: all .5s ease;
+   
+}
+
+.list:hover{
+   letter-spacing: 1.9px;
+   color: #ffd000;
+   text-shadow: 3px 4px 3px black;
+}

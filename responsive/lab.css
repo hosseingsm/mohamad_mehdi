@@ -1,0 +1,23 @@
+.size{
+    width: 100%;
+    border: 3px groove #ffc107;
+    border-radius: 25px;
+    background-color:#212529;
+    color: #ffc107;
+    text-align: center;
+ }
+
+
+ 
+ .size1{
+    width: 270px;
+    height: 200px;
+    border: 1px solid rgb(19, 17, 17);
+    border-radius: 26px;
+    box-shadow: 5px 0px 3px black;
+    margin: 0;
+    padding: 0%;
+ }
+
+
+  
